@@ -10,7 +10,7 @@ commons-math3を利用して、分布表のデータをmongodbに格納ツール
 ## VS. ##
 
 ## Requirement ##
-java11対応
+java11対応  
 mongo c driver 1.17
 
 ## Usage ##
