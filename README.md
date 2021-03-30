@@ -1,5 +1,5 @@
 ﻿mongodbtool
-========
+===========
 commons-math3を利用して、分布表のデータをmongodbに格納ツールです。
 
 ## Description ##
@@ -11,7 +11,8 @@ commons-math3を利用して、分布表のデータをmongodbに格納ツール
 
 ## Requirement ##
 java11対応  
-mongo c driver 1.17
+mongo c driver 1.17  
+Apache common-math3
 
 ## Usage ##
 詳細は、
