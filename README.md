@@ -5,6 +5,8 @@ commons-math3を利用して、分布表のデータをmongodbに格納ツール
 ## Description ##
 ![mongodb tool](images/ucMongoDBTool.jpg)
 
+詳細は、https://siranovel.github.io/mydocs/mongodbtool  
+
 ## Demo ##
 
 ## VS. ##
@@ -12,11 +14,9 @@ commons-math3を利用して、分布表のデータをmongodbに格納ツール
 ## Requirement ##
 java11対応  
 mongo c driver 1.17  
-Apache common-math3
+Apache commons-math3
 
 ## Usage ##
-詳細は、
-https://github.com/siranovel/mongodbtool/wiki
 
 ## install ##
     git clone https://github.com/siranovel/mongodbtool.git  
