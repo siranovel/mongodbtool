@@ -20,8 +20,8 @@ Apache commons-math3
 
 ## install ##
     git clone https://github.com/siranovel/mongodbtool.git  
-    cd mongodbtool  
-    rpm -ivh <rpmファイル名>  
+    cd mongodbtool/bin  
+    任意ディレクトリへコピーし、tarファイルを解凍  
 
 ## Contribution ##
 
