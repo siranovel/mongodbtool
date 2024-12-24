@@ -4,7 +4,7 @@ num4distdb
 
 ## decscription ##
 
-詳細は、https://siranovel.github.io/mydocs/mongotool 
+詳細は、https://siranovel.github.io/mydocs/mongodbtool/
 
 ## Demo ##
 
