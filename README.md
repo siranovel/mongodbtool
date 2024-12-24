@@ -24,8 +24,8 @@ From rubygems:
 
 or from the git repository on github:  
 ~~~
-    git clone https://github.com/siranovel/mongotool.git  
-    cd mongotool  
+    git clone https://github.com/siranovel/mongodbtool.git  
+    cd mongodbtool  
     jruby -S gem build num4distdb.gemspec
     jruby -S gem install *.gem
 ~~~
