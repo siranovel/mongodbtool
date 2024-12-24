@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-## [0.0.1] - 2024-11-29
+## [0.0.1] - 2024-12-23
 
 ### Fixed
 - fix first fixed.
