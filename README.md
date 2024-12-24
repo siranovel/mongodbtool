@@ -1,35 +1,41 @@
-﻿mongodbtool
-===========
-commons-math3を利用して、分布表のデータをmongodbに格納ツールです。
+num4distdb
+==========
+分布表のデータをmongodbに格納すツール
 
-## Description ##
-![mongodb tool](images/ucMongoDBTool.jpg)
+## decscription ##
 
-詳細は、https://siranovel.github.io/mydocs/mongodbtool  
+詳細は、https://siranovel.github.io/mydocs/mongotool 
 
 ## Demo ##
 
 ## VS. ##
 
 ## Requirement ##
-java11対応  
-mongo c driver 1.17  
-Apache commons-math3
+ruby FFI-compilerライブラリ
 
 ## Usage ##
 
 ## install ##
-    git clone https://github.com/siranovel/mongodbtool.git  
-    cd mongodbtool/bin  
-    任意ディレクトリへコピーし、tarファイルを解凍  
+
+From rubygems:  
+~~~
+    [sudo] gem install num4distdb
+~~~
+
+or from the git repository on github:  
+~~~
+    git clone https://github.com/siranovel/mongotool.git  
+    cd mongotool  
+    jruby -S gem build num4distdb.gemspec
+    jruby -S gem install *.gem
+~~~
 
 ## Contribution ##
 
 ## Licence ##
-
-[GPLv2](LICENSE)
-
+[MIT](LICENSE)
 
 ## Author ##
 
 [siranovel](https://github.com/siranovel)
+
