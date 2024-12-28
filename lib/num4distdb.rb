@@ -120,7 +120,7 @@ module Num4DistDBLIB
         #   @return [void] 二項分布(db:distdb tbl:biinv)
         # @example
         #   mongo = Num4DistDBLIB::Num4DistDBCrtLib.new
-        #   mongo.mongo.crtbidist(100, 0.6)
+        #   mongo.crtbidist(100, 0.6)
         def crtbidist(trials, mu)
             @mongo.crtBiDist(trials, mu)
             return
