@@ -4,14 +4,14 @@ num4distdb
 
 ## decscription ##
 
-詳細は、https://siranovel.github.io/mydocs/mongodbtool/
+詳細は、https://siranovel.github.io/mydocs/mongodbtool 
 
 ## Demo ##
 
 ## VS. ##
 
 ## Requirement ##
-ruby rake-compilerライブラリ
+ruby FFI-compilerライブラリ
 
 ## Usage ##
 
