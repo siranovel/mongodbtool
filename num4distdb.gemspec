@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name          = 'num4distdb'
-  s.version       = '0.0.1'
-  s.date          = '2023-12-23'
+  s.version       = '0.0.2'
+  s.date          = '2025-01-01'
   s.summary       = "num for distribution db."
   s.description   = "numerical solution for distribution database by mongodb."
   s.platform      = 'java'

@@ -17,16 +17,12 @@ module Num4DistDBLIB
         # dbs情報を表示
         #
         # @overload dspdbs()
-        #   @return [Array] dbs情報
+        #   @return [void] dbs情報(JFrame)
         # @example
-        #   mongo = Num4DistDBLIB::Num4DistDBInfoLib.new
-        #   ret = mongo.dspdbs
-        #   ret.each do |name|
-        #       puts name
-        #   end
+        #   Num4DistDBLIB::Num4DistDBInfoLib.new
         def dspdbs
-            ret = @mongo.dspDBs()
-            return ret.toArray().to_a
+            @mongo.dspDBs()
+            return
         end
         # distdb内のテーブル一覧を表示
         #
@@ -46,27 +42,13 @@ module Num4DistDBLIB
         #
         # @overload dspdistdts(tblnm)
         #   @param [String] tblnm テーブル名
-        #   @return [Array<Map>] テーブル内のデータ一覧
+        #   @return [void] テーブル内のデータ一覧画面(JFrame)
         # @example
         #   mongo = Num4DistDBLIB::Num4DistDBInfoLib.new
-        #   ret = @mongo.dspdistdts("asininv")
-        #   ret.each do |map|
-        #       p map
-        #   end
+        #   @mongo.dspdistdts("asininv")
         def dspdistdts(tblnm)
-            retRb = []
-            ret = @mongo.dspDistDts(tblnm)
-            n = ret.size
-            n.times {|i|
-                map = {}
-                o = ret.get(i) # Map<String, Object>
-                keys = o.keySet().to_a
-                keys.each do |key|
-                    map[key] = o.get(key)
-                end
-                retRb.push(map)
-            }
-            return retRb
+            @mongo.dspDistDts(tblnm)
+            return
         end
         # コレクションを削除
         #

@@ -5,10 +5,7 @@ class TestDistDb
         @mongo = Num4DistDBLIB::Num4DistDBInfoLib.new
     end
     def test_dbs
-        ret = @mongo.dspdbs
-        ret.each do |name|
-            puts name
-        end
+        @mongo.dspdbs
     end
     def test_dspdistdbs
         ret = @mongo.dspdistdbs

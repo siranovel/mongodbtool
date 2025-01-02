@@ -14,7 +14,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Set up Ruby 2.6
+     # Java 17 を使えるようにする
+    - name: Set up Java 17
+      uses: actions/setup-java@v3
+      with:
+        distribution: oracle
+        java-version: 17
+    - name: Set up Ruby jruby
       uses: ruby/setup-ruby@v1 # v1.146.0
       with:
         ruby-version: jruby
