@@ -11,7 +11,7 @@ num4distdb
 ## VS. ##
 
 ## Requirement ##
-ruby FFI-compilerライブラリ
+ruby rake-compilerライブラリ
 
 ## Usage ##
 
