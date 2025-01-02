@@ -1,0 +1,24 @@
+name: tweet bot
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  tweet:
+    runs-on: ubuntu-latest
+
+      steps:
+    - uses: actions/checkout@v4
+      with:
+        path: package-lock.json
+    - uses: snow-actions/tweet@v1.1.0
+      env:
+        CONSUMER_API_KEY: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
+        CONSUMER_API_SECRET_KEY: ${{ secrets.TWITTER_CONSUMER_API_SECRET_KEY }}
+        ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN_KEY }}
+        ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+      with:
+        status: "Hi, this is a test!"
+
+
