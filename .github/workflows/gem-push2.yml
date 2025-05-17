@@ -1,4 +1,4 @@
-name: Ruby Gem2
+name: Ruby Gem
 
 on:
   push:
@@ -19,7 +19,7 @@ jobs:
       uses: actions/setup-java@v3
       with:
         distribution: oracle
-        java-version: 17
+        java-version: 21
     - name: Set up Ruby jruby
       uses: ruby/setup-ruby@v1 # v1.146.0
       with:
